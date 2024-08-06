@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffeb3b;
+    margin: 0;
+}
+
+#banner {
+    width: 100%;
+    text-align: center;
+    background-color: #ffeb3b;
+    padding: 10px 0;
+}
+
+#banner img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#app {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px;
+    animation: fadeIn 1s;
+}
+
+h1 {
+    color: #d32f2f;
+    font-size: 2em;
+}
+
+#birthdayImage {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#content p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: fadeIn 1s;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.stepImage {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
